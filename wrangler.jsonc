@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jamon-party",
+  "compatibility_date": "2026-11-01",
+  "assets": { "directory": "./public" },
+  "routes": [
+    { "pattern": "jamon.party", "custom_domain": true },
+    { "pattern": "www.jamon.party", "custom_domain": true }
+  ]
+}
